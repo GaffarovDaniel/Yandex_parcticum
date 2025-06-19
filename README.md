@@ -45,13 +45,19 @@ Scikit-learn (LinearRegression)
 Bootstrap sampling
 Статистический анализ
 
-Структура проекта
+oil_well_location/
 ├── data/
-│ ├── geo_data_0.csv
-│ ├── geo_data_1.csv
-│ └── geo_data_2.csv
+│   ├── geo_data_0.csv
+│   ├── geo_data_1.csv
+│   └── geo_data_2.csv
 ├── notebooks/
-│ └── oil_well_location.ipynb
+│   └── oil_well_location.ipynb
+├── src/
+│   ├── __init__.py
+│   ├── data_processing.py
+│   ├── model_training.py
+│   └── profit_calculation.py
+├── requirements.txt
 └── README.md
 Выводы
 Проект позволяет принять обоснованное решение о выборе региона для разработки скважин на основе анализа прибыли и рисков, что минимизирует финансовые потери компании.
